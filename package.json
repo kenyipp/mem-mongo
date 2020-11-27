@@ -1,0 +1,43 @@
+{
+	"name": "mem-mongo",
+	"author": "Ken Yip <ken20206@gmail.com> (https://kenyip.cc)",
+	"contributors": [
+		"Ken Yip <ken20206@gmail.com> (https://kenyip.cc)"
+	],
+	"version": "1.0.0",
+	"private": false,
+	"description": "A function wrapper on `mem` module which using `mongoDb` as the cache store",
+	"main": "./lib/index.js",
+	"scripts": {
+		"test": "jest lib/mem.spec.js"
+	},
+	"keywords": [
+		"mem",
+		"mongo",
+		"mongoose",
+		"cache",
+		"memoize"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"md5": "^2.3.0",
+		"mimic-fn": "^3.1.0",
+		"moment": "^2.29.1",
+		"mongoose": "^5.10.16"
+	},
+	"devDependencies": {
+		"delay": "^4.4.0",
+		"dotenv": "^8.2.0"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenyipp/mem-redis.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kenyipp/mem-redis/issues"
+	},
+	"homepage": "https://github.com/kenyipp/mem-redis#readme"
+}
