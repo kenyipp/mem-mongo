@@ -4,7 +4,7 @@
 	"contributors": [
 		"Ken Yip <ken20206@gmail.com> (https://kenyip.cc)"
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"description": "A function wrapper on `mem` module which using `mongoDb` as the cache store",
 	"main": "./lib/index.js",
