@@ -34,10 +34,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kenyipp/mem-redis.git"
+		"url": "git+https://github.com/kenyipp/mem-mongo.git"
 	},
 	"bugs": {
-		"url": "https://github.com/kenyipp/mem-redis/issues"
+		"url": "https://github.com/kenyipp/mem-mongo/issues"
 	},
-	"homepage": "https://github.com/kenyipp/mem-redis#readme"
+	"homepage": "https://github.com/kenyipp/mem-mongo#readme"
 }
